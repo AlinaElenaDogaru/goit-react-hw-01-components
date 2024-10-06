@@ -1,0 +1,97 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        margin-top: 20px;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    border-radius: 15px;
+    padding-bottom: 4%;
+    height: auto;
+    transition: box-shadow 0.3s ease;
+        /* Tranziție lină pentru efectul de hover */
+}
+
+.profile:hover {
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2),
+        /* Umbra principală */
+        0 6px 6px rgba(0, 0, 0, 0.1);
+    /* Umbra secundară */
+}
+.profile img {
+    width: 40%;
+    border-radius: 50%;
+    margin-top: 10px;
+    display: block;
+}
+.description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: white;
+    margin-top: 10%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+.name {
+    font-weight: 600;
+    margin: 3%;
+}
+.tag{
+    color: gray;
+    font-size: 12px;
+    margin: 2%;
+}
+.location {
+    color: grey;
+    font-size: 12px;
+}
+.stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    margin-top: 0;
+    padding-top: 0;
+    width: 50%;
+    font-size: 12px;
+    text-align: center;
+    padding-left: 0%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: auto;
+    
+}
+.stats li:not(:last-child) {
+        border-right: 1px solid #c3cfe2;
+        padding-right: 10px;
+        text-align: center;
+}
+.label {
+    color: gray;
+}
+.quantity {
+    font-weight: 600;
+    margin-top: 10px;
+    
+}
+
+.quantity:hover {
+    color: cornflowerblue;
+}
