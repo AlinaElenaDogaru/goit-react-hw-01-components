@@ -6,7 +6,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 export const App = () => {
   return (
     <div>
-      <BrowserRouter basename= { isProduction ? '/goit-react-hw-01' : ''}>
+      <BrowserRouter basename= { isProduction ? '/goit-react-hw-01-components' : ''}>
         <Profile />
         </BrowserRouter>
     </div>
