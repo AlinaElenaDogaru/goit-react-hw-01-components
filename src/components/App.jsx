@@ -1,6 +1,8 @@
 import Profile from './profile/Profile.jsx';
 import { BrowserRouter } from 'react-router-dom';
 import user from './user.json';
+import Statistics from './statistics/Statistics.jsx';
+import FriendList from './friends/FriendsComponents.jsx';
 
 const isProduction = process.env.NODE_ENV === 'production';
 
@@ -13,7 +15,9 @@ export const App = () => {
       tag={user.tag}
       location={user.location}
       avatar={user.avatar}
-      stats={user.stats}/>
+          stats={user.stats} />
+        <Statistics condition='true' title='Upload stats' />
+        <FriendList />
         </BrowserRouter>
     </div>
   );

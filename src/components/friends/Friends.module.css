@@ -1,0 +1,59 @@
+.friendList {
+    margin: 30px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background-color: white;
+    width: 20%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    /* Culoarea gri cu 50% transparență */}
+    
+.item:hover {
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2),
+/* Umbra principală */
+0 6px 6px rgba(0, 0, 0, 0.1);
+/* Umbra secundară */
+        
+}
+
+.status {
+    width: 15px;
+    height: 15px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.online {
+    background-color: green;
+}
+
+.offline {
+    background-color: red;
+}
+
+.avatar {
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.name {
+    margin-left: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: #333;
+}
